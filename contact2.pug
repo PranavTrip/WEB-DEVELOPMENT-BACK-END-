@@ -1,0 +1,17 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title CONTACT US
+    style 
+        include ../style2.css
+h1 Contact Us Now
+form#contact(action='/' method='POST')
+    input#name(type='text' name='name' placeholder='Enter your name' class="input")
+    input#email(type='email' name='email' placeholder='Enter your email' class="input")
+    input#number(type='number' name='number' placeholder='Enter your number' class="input")
+    input#qury(type='text' name='qury' placeholder='Enter your query' class="input")
+    input#address(type='text' name='address' placeholder='Enter your address' class="input")
+    textarea#message(name='message' cols='30' rows='10' placeholder='Enter your message for us!' class="input")
+    button.btn SUBMIT

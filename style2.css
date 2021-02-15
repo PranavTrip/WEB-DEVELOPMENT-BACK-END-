@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 76px;
+    padding-top: 40px;
+}
+*{
+    margin:0;
+    padding: 0;
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 35px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+
+}
+.input{
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px,black,outset
+}
+.input:hover{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
